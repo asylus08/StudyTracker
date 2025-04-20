@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StudyTracker</string>
+    <string name="erreur_champs_manquant">Please fill in all fields</string>
+    <string name="erreur_connexion">Connection failed</string>
+    <string name="erreur_nom_existant">Registration failed: Existing name</string>
+    <string name="erreur_inscription">Registration failed : Internal error</string>
+    <string name="erreur_mdp_different">Passwords do not match</string>
+    <string name="erreur_titre_cours_invalide">Please enter a course with a valid title.</string>
+    <string name="erreur_info_compte">Error retrieving account information</string>
+    <string name="erreur_titre_tache_invalide">Please enter a task with a valid title.</string>
+    <string name="erreur_configuration_etude">Please enter a valid name and select a course.</string>
+    <string name="erreur_capture_photo">Failed to capture photo</string>
+    <string name="erreur_selection_image">Unable to access selected image</string>
+    <string name="erreur_ajout_devoir">Error adding assignment</string>
+    <string name="erreur_devoir_introuvable">Error: Assignment not found in the database</string>
+    <string name="erreur_id_devoir_introuvable">Error: Assignment ID not defined</string>
+    <string name="permission_camera_refusee">Camera permission denied</string>
+    <string name="erreur_nom_devoir_vide">The assignment name cannot be empty</string>
+    <string name="erreur_cours_introuvable">Error: Course not found</string>
+    <string name="erreur_ajouter_image">Please add an image to be able to add the assignment.</string>
+    <string name="erreur_nom_vide">Please enter a name for the assignment</string>
+    <string name="erreur_description_vide">Please enter a description for the assignment</string>
+    <string name="erreur_image_vide">Please add an image for the assignment</string>
+    <string name="erreur_priorite_vide">Please add a value for the priority</string>
+    <string name="erreur_ami_existant">This user is already your friend</string>
+    <string name="erreur_utilisateur_non_trouve">Current user not found</string>
+    <string name="erreur_utilisateur_inexistant">This user does not exist</string>
+    <string name="erreur_acces_image">Image access error</string>
+    <string name="erreur_id_vide">Please enter a valid ID</string>
+    <string name="erreur_id_inconnu">Unable to copy: Unknown ID</string>
+    <string name="erreur_aucune_question">No question loaded</string>
+    <string name="erreur_recherche_internet">The Internet search failed!</string>
+    <string name="erreur_initialisation">Unable to initialize interface components</string>
+
+
+    <string name="selection_parametres">Selected settings</string>
+    <string name="selection_a_propos">About selected</string>
+    <string name="message_deconnexion">You have been logged out</string>
+    <string name="theme_sombre_activer">Dark theme activated</string>
+    <string name="theme_sombre_desactiver">Dark theme deactivated</string>
+    <string name="message_modif_compte">Account successfully modified</string>
+    <string name="message_supression_compte">Account successfully deleted</string>
+    <string name="alerte_suppression_compte">Confirm deletion</string>
+    <string name="question_suppression_compte">Are you sure you want to delete your account? This action is irreversible.</string>
+
+
+    <string name="connecter">Connect</string>
+    <string name="indice_nom_utilisateur">Username</string>
+    <string name="indice_mot_de_passe">Password</string>
+    <string name="indice_confirmer_mot_de_passe">Confirm password</string>
+    <string name="bienvenue">Welcome</string>
+    <string name="vers_inscription">No account? Sign up</string>
+    <string name="fin_session">End session</string>
+    <string name="nouvelle_tache">New task</string>
+    <string name="fini">Done</string>
+    <string name="a_faire">To do</string>
+    <string name="modifier">Edit</string>
+    <string name="supprimer">Delete</string>
+    <string name="vos_preferences">Your preferences</string>
+    <string name="mode_sombre">Dark mode</string>
+    <string name="stat_cours">Course:</string>
+    <string name="stat_tache_completer">Completed tasks:</string>
+    <string name="stat_tache_creer">Created tasks:</string>
+    <string name="stat_temps_etude">Study time:</string>
+    <string name="historique">History</string>
+    <string name="demarrer">Start</string>
+    <string name="session_etude">Study session</string>
+    <string name="cours">Course</string>
+    <string name="mes_devoirs">Homeworks</string>
+    <string name="mes_cours">My courses</string>
+    <string name="ajouter_cours">Add course</string>
+    <string name="inscription">Sign up</string>
+    <string name="inscris_moi">Sign me up</string>
+    <string name="vers_connexion">Already have an account? Log in!</string>
+    <string name="credit_developpeurs">Developers: Alec Pham, Lili-Rose Mondat</string>
+    <string name="cadre_cours">In the context of the course: Mobile Application</string>
+    <string name="credit_technologies">Technologies used: Kotlin, Android Studio, Room</string>
+    <string name="parametres">Settings</string>
+    <string name="a_propos">About</string>
+    <string name="deconnexion">Log out</string>
+    <string name="message_ajout_cours">Add a new course</string>
+    <string name="ajouter">Add</string>
+    <string name="annuler">Cancel</string>
+    <string name="oui">Yes</string>
+    <string name="non">No</string>
+    <string name="daccord">Okay</string>
+    <string name="ajouter_tache">Add a new task</string>
+    <string name="configuration_etude">Set up your study session</string>
+    <string name="indice_titre_session_etude">Name of the study session</string>
+    <string name="confirmer">Confirm</string>
+    <string name="aucun_valeur">N/A</string>
+    <string name="todo">À FAIRE</string>
+    <string name="erreur_operation_interne">Internal operations error</string>
+    <string name="demande_reconnexion">Please re-login to view theme change</string>
+    <string name="ajouter_devoir">Add an assignment</string>
+    <string name="description_defaut">Default description</string>
+    <string name="prendre_photo">Take a photo</string>
+    <string name="choisir_galerie">Choose from gallery</string>
+    <string name="selection_option_image">Select an option</string>
+    <string name="confirmation_suppression">Are you sure you want to delete this assignment?</string>
+    <string name="confirmation_devoir_supprime">Assignment deleted</string>
+    <string name="complete">Completed</string>
+    <string name="ajouter_image">Add an image</string>
+    <string name="mode_edition">Edit mode</string>
+    <string name="enregister">Save</string>
+    <string name="description_devoir">Assignment description</string>
+    <string name="nom_devoir">Assignment name</string>
+    <string name="choisir_cours">Choose a course</string>
+    <string name="nom_cours">Course name</string>
+    <string name="message_ajout_devoirs">Add a new assignment</string>
+    <string name="divers">Others</string>
+    <string name="amis">Your friends</string>
+    <string name="confirmation_ajout_ami">Friend added successfully</string>
+    <string name="ami_supprime">Friend successfully deleted</string>
+    <string name="ajouter_ami_titre">Add a Friend</string>
+    <string name="entrer_id_ami">Enter the friend\'s ID</string>
+    <string name="id_copie">ID copied to clipboard</string>
+    <string name="id_inconnu">Unknown ID</string>
+    <string name="classement">Leaderboard</string>
+    <string name="reponse">Your answer</string>
+    <string name="reessayer">Try again</string>
+    <string name="categorie_invalide">Invalid category</string>
+    <string name="reponse_invalide">Invalid answer</string>
+    <string name="bonne_reponse">Correct answer</string>
+    <string name="mauvaise_reponse">Wrong answer</string>
+
+
+    <!-- Priority array -->
+    <string-array name="priorite_array">
+        <item>Low</item>
+        <item>Normal</item>
+        <item>High</item>
+    </string-array>
+    <string name="message_notification">Don\'t lose your streak! Complete your daily study session :D</string>
+    <string name="choisir_categorie">Choose a category</string>
+
+</resources>

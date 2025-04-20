@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blanc">#FFFFFF</color>
+    <color name="noir">#000000</color>
+    <color name="gris">#666666</color>
+    <color name="turquoise">#1abc9c</color>
+    <color name="rouge">#e74c3c</color>
+    <color name="texte">#FFFFFF</color>
+
+    <!-- Couleurs pour le fond en mode sombre -->
+    <color name="lightItemBackground">#FFFFFF</color>
+    <color name="darkItemBackground">#333333</color>
+</resources>

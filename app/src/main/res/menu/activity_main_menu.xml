@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/streak"
+        android:title="@string/streak"
+        app:actionLayout="@layout/streak_layout"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/iconeParametre"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="@string/parametres"
+        app:showAsAction="ifRoom"
+        app:tint="?attr/iconTint"/>
+
+    <item
+        android:id="@+id/Amis"
+        android:title="@string/amis"
+        app:showAsAction="never"
+        app:tint="?attr/iconTint" />
+
+    <item
+        android:id="@+id/APropos"
+        android:title="@string/a_propos"
+        app:showAsAction="never"
+        app:tint="?attr/iconTint" />
+
+    <item
+        android:id="@+id/deconnexion"
+        android:title="@string/deconnexion"
+        app:showAsAction="never"
+        app:tint="?attr/iconTint" />
+
+</menu>

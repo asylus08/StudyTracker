@@ -1,0 +1,164 @@
+<resources>
+    <!-- message d'erreur -->
+    <string name="app_name">StudyTracker</string>
+    <string name="erreur_champs_manquant">Veuillez remplir tous les champs</string>
+    <string name="erreur_connexion">Échec lors de la connexion</string>
+    <string name="erreur_nom_existant">Échec lors de l\'inscription: Nom existant</string>
+    <string name="erreur_inscription">Échec lors de l\'\\inscription : Erreur interne</string>
+    <string name="erreur_mdp_different">Les mots de passes sont différents</string>
+    <string name="erreur_titre_cours_invalide">Veuillez entrer un cours avec un titre valide.</string>
+    <string name="erreur_info_compte">Erreur lors du receuille de l\'information de compte</string>
+    <string name="erreur_titre_tache_invalide">Veuillez entrer une tâche avec un titre valide.</string>
+    <string name="erreur_configuration_etude">Veuillez entrer un nom valide et sélectionner un cours.</string>
+    <string name="erreur_operation_interne">Échec des opérations internes</string>
+    <string name="erreur_capture_photo">Échec de la capture de la photo</string>
+    <string name="erreur_selection_image">Impossible d\'accéder à l\'image sélectionnée</string>
+    <string name="erreur_ajout_devoir">Erreur lors de l\'ajout du devoir</string>
+    <string name="erreur_devoir_introuvable">Erreur : Devoir introuvable dans la base de données</string>
+    <string name="erreur_id_devoir_introuvable">Erreur : ID du devoir non défini</string>
+    <string name="permission_camera_refusee">Permission de la caméra refusée</string>
+    <string name="erreur_nom_devoir_vide">Le nom du devoir ne peut pas être vide</string>
+    <string name="erreur_cours_introuvable">Erreur : Cours introuvable</string>
+    <string name="erreur_ajouter_image">Veuillez ajouter une image pour pouvoir ajouter le devoir.</string>
+    <string name="erreur_nom_vide">Veuillez entrer un nom pour le devoir</string>
+    <string name="erreur_description_vide">Veuillez entrer une description pour le devoir</string>
+    <string name="erreur_image_vide">Veuillez ajouter une image pour le devoir</string>
+    <string name="erreur_priorite_vide">Veuillez ajouter une valeur pour la priorité</string>
+    <string name="erreur_ami_existant">Cet utilisateur est déjà votre ami</string>
+    <string name="erreur_utilisateur_non_trouve">Utilisateur actuel non trouvé</string>
+    <string name="erreur_utilisateur_inexistant">Cet utilisateur n\'existe pas</string>
+    <string name="erreur_acces_image">Erreur d\'accès à l\'image</string>
+    <string name="erreur_id_vide">Veuillez entrer un ID valide</string>
+    <string name="erreur_id_inconnu">Impossible de copier : ID inconnu</string>
+    <string name="erreur_aucune_question">Aucune question chargée</string>
+    <string name="erreur_recherche_internet">La recherche Internet a échouée!</string>
+    <string name="erreur_initialisation">Impossible d\'initialiser les composants de l\'interface</string>
+
+
+    <!-- Divers message -->
+    <string name="selection_parametres">Paramètre sélectionné</string>
+    <string name="selection_a_propos">À propos sélectionné</string>
+    <string name="message_deconnexion">Vous avez été déconnecté</string>
+    <string name="theme_sombre_activer">Thème sombre activer</string>
+    <string name="theme_sombre_desactiver">Thème sombre désactiver</string>
+    <string name="message_modif_compte">Compte modifié avec succès</string>
+    <string name="message_supression_compte">Compte supprimé avec succès</string>
+    <string name="alerte_suppression_compte">Confirmer la suppression</string>
+    <string name="question_suppression_compte">Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible.</string>
+
+
+    <!-- texte interface -->
+    <string name="connecter">Connecter</string>
+    <string name="indice_nom_utilisateur">Nom utilisateur</string>
+    <string name="indice_mot_de_passe">Mot de passe</string>
+    <string name="indice_confirmer_mot_de_passe">Confirmer mot de passe</string>
+    <string name="bienvenue">Bienvenue</string>
+    <string name="vers_inscription">Pas de compte? Inscrivez-vous</string>
+    <string name="fin_session">Fin session</string>
+    <string name="nouvelle_tache">Nouvelle tâche</string>
+    <string name="fini">Fini</string>
+    <string name="a_faire">À faire</string>
+    <string name="modifier">Modifier</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="vos_preferences">Vos préférences</string>
+    <string name="mode_sombre">Mode sombre</string>
+    <string name="stat_cours">Cours:</string>
+    <string name="stat_tache_completer">Tâches compléter:</string>
+    <string name="stat_tache_creer">Tâches créer:</string>
+    <string name="stat_temps_etude">Temps d\'étude:</string>
+    <string name="historique">Historique</string>
+    <string name="demarrer">Démarrer</string>
+    <string name="session_etude">Étude</string>
+    <string name="cours">Cours</string>
+    <string name="mes_devoirs">Mes devoirs</string>
+    <string name="mes_cours">Mes cours</string>
+    <string name="ajouter_cours">Ajouter cours</string>
+    <string name="inscription">Inscription</string>
+    <string name="inscris_moi">Inscris-moi</string>
+    <string name="vers_connexion">Déjà un compte? Connectez-vous!</string>
+    <string name="credit_developpeurs">Développeur(euse): Alec Pham, Lili-Rose Mondat</string>
+    <string name="cadre_cours">Dans le cadre du cours: Application Mobile</string>
+    <string name="credit_technologies">Technologies utilisées: Kotlin, Android Studio, Room</string>
+    <string name="parametres">Paramètres</string>
+    <string name="a_propos">À propos</string>
+    <string name="deconnexion">Déconnexion</string>
+    <string name="message_ajout_cours">Ajoutez un nouveau cours</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="annuler">Annuler</string>
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+    <string name="daccord">D\'accord</string>
+    <string name="ajouter_tache">Ajoutez une nouvelle tâche</string>
+    <string name="configuration_etude">Configurez votre session d\'étude</string>
+    <string name="indice_titre_session_etude">Nom de la session d\'étude</string>
+    <string name="confirmer">Confirmer</string>
+    <string name="aucun_valeur">N/A</string>
+    <string name="todo">TODO</string>
+    <string name="valeur_chrono_defaut" translatable="false">00:00:00</string>
+    <string name="demande_reconnexion">Veuillez vous reconnecter pour voir le changement de thème</string>
+    <string name="ajouter_devoir">Ajouter un devoir</string>
+    <string name="description_defaut">"Description par défaut"</string>
+    <string name="prendre_photo">Prendre une photo</string>
+    <string name="choisir_galerie">Choisir depuis la galerie</string>
+    <string name="selection_option_image">Sélectionner une option</string>
+    <string name="confirmation_suppression">Êtes-vous sûr de vouloir supprimer ce devoir ?</string>
+    <string name="confirmation_devoir_supprime">Devoir supprimé</string>
+    <string name="complete">Complété</string>
+    <string name="ajouter_image">Ajouter une image</string>
+    <string name="mode_edition">Mode édition</string>
+    <string name="enregister">Enregistrer</string>
+    <string name="description_devoir">Description du devoir</string>
+    <string name="nom_devoir">Nom du devoir</string>
+    <string name="choisir_cours">Choisissez un cours</string>
+    <string name="nom_cours">Nom du cours</string>
+    <string name="message_notification">Ne perd pas ton streak! Fait ton étude de la journée :D</string>
+    <string name="choisir_categorie">Choisissez une categorie</string>
+    <string name="message_ajout_devoirs">Ajoutez un nouveau devoir</string>
+    <string name="divers">Divers</string>
+    <string name="amis">Vos amis</string>
+    <string name="confirmation_ajout_ami">Ami ajouté avec succès</string>
+    <string name="ami_supprime">Ami supprimé avec succès</string>
+    <string name="ajouter_ami_titre">Ajouter un ami</string>
+    <string name="entrer_id_ami">Entrez l\'ID de l\'ami</string>
+    <string name="id_copie">ID copié dans le presse-papiers</string>
+    <string name="id_inconnu">ID inconnu</string>
+    <string name="reessayer">Réessayer</string>
+    <string name="categorie_invalide">Catégorie invalide</string>
+    <string name="reponse_invalide">Réponse invalide</string>
+    <string name="bonne_reponse">Bonne réponse</string>
+    <string name="mauvaise_reponse">Mauvaise réponse</string>
+
+
+    <string name="classement">Classement</string>
+    <string name="reponse">Votre réponse</string>
+    <string name="trivia" translatable="false">Trivia</string>
+    <string name="streak" translatable="false">Streak</string>
+
+
+    <string-array name="priorite_array">
+        <item>Basse</item>
+        <item>Normale</item>
+        <item>Haute</item>
+    </string-array>
+
+    <string-array name="categorie">
+        <item>art/literature</item>
+        <item>language</item>
+        <item>science/nature</item>
+        <item>general</item>
+        <item>food/drink</item>
+        <item>people/places</item>
+        <item>geography</item>
+        <item>history/holidays</item>
+        <item>entertainment</item>
+        <item>toys/games</item>
+        <item>music</item>
+        <item>mathematics</item>
+        <item>religion/mythology</item>
+        <item>sports/leisure</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

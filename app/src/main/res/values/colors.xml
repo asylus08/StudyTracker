@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="noir">#FF000000</color>
+    <color name="blanc">#FFFFFFFF</color>
+    <color name="turquoise">#4ab592</color>
+    <color name="vert">#abddcd</color>
+    <color name="rouge">#f8073a</color>
+    <color name="gris">#555353</color>
+    <color name="gris_pale">#999898</color>
+    <color name="texte">#000000</color>
+
+    <!-- Couleurs pour le fond -->
+    <color name="lightItemBackground">#FFFFFF</color>
+    <color name="darkItemBackground">#333333</color>
+</resources>

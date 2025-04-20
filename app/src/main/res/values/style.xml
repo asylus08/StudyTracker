@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ImageCirculaire">
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+    <!-- Style pour le dialogue en mode clair -->
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorAccent">#4ab592</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <!-- Style pour le dialogue en mode sombre -->
+    <style name="CustomAlertDialogModeSombre" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorAccent">@color/gris</item>
+        <item name="android:textColorPrimary">@color/blanc</item>
+        <item name="android:background">#333333</item>
+    </style>
+
+    <style name="CustomButtonModeSombre" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/noir</item>
+    </style>
+
+</resources>

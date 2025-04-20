@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/iconePhoto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:textSize="20sp"
+    android:textColor="@color/noir">
+
+    <TextView
+        android:id="@+id/modeEdition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/mode_edition"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgDescriptionDevoir"
+        android:layout_width="117dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="132dp"
+        app:shapeAppearanceOverlay="@style/ImageCirculaire"
+        app:layout_constraintEnd_toStartOf="@id/nomDevoir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/modeEdition"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/nomDevoir"
+        android:layout_width="207dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/nom_devoir"
+        android:textSize="24sp"
+        android:textColor="@color/texte"
+        app:layout_constraintBottom_toBottomOf="@id/imgDescriptionDevoir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imgDescriptionDevoir"
+        app:layout_constraintTop_toTopOf="@id/imgDescriptionDevoir"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/descriptionDevoir"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/description_devoir"
+        android:textSize="20sp"
+        android:textColor="@color/texte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgDescriptionDevoir" />
+
+    <Spinner
+        android:id="@+id/spinnerPriorite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:entries="@array/priorite_array"
+        android:textColor="@color/texte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/descriptionDevoir" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerPriorite">
+
+        <Button
+            android:id="@+id/btnAnnuler"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bouton_rond"
+            android:theme="@style/Button.Turquoise"
+            android:backgroundTint="@color/turquoise"
+            android:text="@string/annuler"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnEnregister"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/bouton_rond"
+            android:theme="@style/Button.Turquoise"
+            android:backgroundTint="@color/turquoise"
+            android:text="@string/enregister"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/iconeCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="Camera"
+        android:focusable="true"
+        android:tint="@color/blanc"
+        app:backgroundTint="@color/vert"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toBottomOf="@id/imgDescriptionDevoir"
+        app:layout_constraintEnd_toEndOf="@id/imgDescriptionDevoir"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/imgDescriptionDevoir"
+        app:layout_constraintTop_toTopOf="@id/imgDescriptionDevoir"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/ImageCirculaire"
+        app:srcCompat="@drawable/baseline_photo_camera_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
